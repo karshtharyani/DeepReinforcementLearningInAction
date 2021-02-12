@@ -14,7 +14,7 @@ In order to run many of the projects, you'll need at least the [NumPy](http://ww
 and [PyTorch](http://pytorch.org/).
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Contribute
