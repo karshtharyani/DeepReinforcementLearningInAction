@@ -34,11 +34,6 @@ training/testing.
 - But **we want to capture temporal corelation** because your current action
 influences the next and so on. 
 
-## Implementation
-- See cartpoleproblem.py
-- See [Gym Environment for Cart
-  Pole](https://github.com/openai/gym/blob/master/gym/envs/classic_control/cartpole.py)
-
 ### Maximize the distribution or minimize the negative log of it
 - If *pi(a|theta)* increases, *log(pi(a|theta))* increases, or its *-log()*
 decreases
@@ -50,4 +45,9 @@ decreases
 - G_t := future return cumulative reward from *t* till *T* termination.
 - Actions temporally more distant from the received reward should be weighted
 less than actions closer.
+
+## Implementation
+- See cartpoleproblem.py
+- See [Gym Environment for Cart
+  Pole](https://github.com/openai/gym/blob/master/gym/envs/classic_control/cartpole.py)
 
